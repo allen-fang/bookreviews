@@ -55,7 +55,7 @@ def books(request, id):
 
 # user page
 def user(request, id):
-	user = User.objects.get(id=request.session['user'])
+	user = User.objects.get(id=id)
 	context = {
 		"user": user,
 		"books": user.reviewed.all(),
