@@ -1,0 +1,143 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+/*LOGIN AND REGISTRATION PAGE*/
+
+.wrapper {
+	width: 70%;
+	margin: 50px auto;
+}
+
+h1 {
+	margin-bottom: 20px
+}
+
+.error ul {
+	list-style-type: none;
+	color: red;
+}
+
+.index-content {
+	display: flex;
+	justify-content: space-around;
+}
+
+.index-form {
+	width: 40%;
+	border: 1px solid black;
+	padding: 10px 15px 15px;
+	line-height: 1.8;
+}
+
+.index-form > form {
+	display: flex;
+	flex-direction: column;
+}
+
+.index-form > form input {
+	display: inline-block;
+	float: right;
+}
+
+/*HOME PAGE*/
+
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.home-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.other-books {
+	margin-top: 15px;
+	margin-left: 15px;
+	border: 1px solid black;
+	padding: 5px;
+	width: 75%;
+	height: 100px;
+	overflow: scroll;
+}
+
+.recent-reviews {
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.recent-reviews > * {
+	line-height: 1.8;
+}
+
+.recent-reviews > p {
+	padding-top: 5px;
+	border-top: 1px solid black;
+}
+
+
+/*ADDING BOOK AND REVIEW PAGE*/
+
+.add-headder {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.add-headder a {
+	margin-left: 5px;
+}
+
+.review-form > form {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.8;
+}
+
+.review-form span {
+	vertical-align: top;
+}
+
+.author {
+	margin-left: 15px;
+}
+
+label {
+	font-weight: bold;
+}
+
+.add-review-button {
+	width: 150px;
+}
+
+
+/*BOOK PAGE*/
+
+.header-links {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header-links > a {
+	margin-left: 5px;
+}
+
+.content {
+	display:flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
